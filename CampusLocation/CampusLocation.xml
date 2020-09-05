@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CampusLocation</name>
+    </assembly>
+    <members>
+        <member name="M:CampusLocation.Controllers.LocationsController.GetAll">
+            <summary>
+            Get all locations
+            </summary>
+            <returns>List of locations</returns>
+        </member>
+        <member name="M:CampusLocation.Controllers.LocationsController.GetLocation(System.Int32)">
+            <summary>
+            Get location by ID
+            </summary>
+            <param name="id"></param>
+            <returns>Location</returns>
+        </member>
+        <member name="M:CampusLocation.Controllers.LocationsController.Create(CampusLocation.DTOs.LocationDTO)">
+            <summary>
+            Post a Location
+            </summary>
+            <returns>Adding a location</returns>
+        </member>
+        <member name="M:CampusLocation.Controllers.LocationsController.Update(System.Int32,CampusLocation.DTOs.LocationUpdateDTO)">
+            <summary>
+            Update location
+            </summary>
+            <param name="id"></param>
+            <param name="locationDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CampusLocation.Controllers.LocationsController.Delete(System.Int32)">
+            <summary>
+            Delete location
+            </summary>
+            <param name="id"></param>
+            <returns>location deleted</returns>
+        </member>
+        <member name="M:CampusLocation.Controllers.UsersController.Post(CampusLocation.DTOs.UsersDTO)">
+            <summary>
+            User login endpoint 
+            </summary>
+            <param name="userDTO"></param>
+            <returns>user login</returns>
+        </member>
+    </members>
+</doc>
